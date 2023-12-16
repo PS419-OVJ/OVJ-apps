@@ -1,24 +1,17 @@
 const express = require('express')
 const mysql = require('mysql')
 const router = express.Router()
-const Multer = require('multer')
-const imgUpload = require('../modules/imgUpload')
-
-const multer = Multer({
-    storage: Multer.MemoryStorage,
-    fileSize: 5 * 1024 * 1024
-})
 
 // TODO: Sesuaikan konfigurasi database
 const connection = mysql.createConnection({
-    host: 'public_ip_sql_instance_Anda',
+    host: '34.101.176.249',
     user: 'root',
-    database: 'nama_database_Anda',
-    password: 'password_sql_Anda'
+    database: 'ps419',
+    password: '123456'
 })
 
-router.get("/dashboard", (req, res) => {
-    const query = "select (select count(*) from records where month(records.date) = month(now()) AND year(records.date) = year(now())) as month_records, (select sum(amount) from records) as total_amount;"
+router.get("/", (req, res) => {
+    const query = "select * FROM data_wisata"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -28,8 +21,8 @@ router.get("/dashboard", (req, res) => {
     })
 })
 
-router.get("/getrecords", (req, res) => {
-    const query = "SELECT * FROM records"
+router.get("/getnature", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kategori='Nature-Adventure'"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -39,8 +32,8 @@ router.get("/getrecords", (req, res) => {
     })
 })
 
-router.get("/getlast10records", (req, res) => {
-    const query = "SELECT * FROM records ORDER BY date DESC LIMIT 10"
+router.get("/geturban", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kategori='Urban-Fam'"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -50,8 +43,8 @@ router.get("/getlast10records", (req, res) => {
     })
 })
 
-router.get("/gettopexpense", (req, res) => {
-    const query = "SELECT * FROM records WHERE amount < 0 ORDER BY amount ASC LIMIT 10"
+router.get("/getedu", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kategori='Edu-Culture-Food'"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -61,24 +54,8 @@ router.get("/gettopexpense", (req, res) => {
     })
 })
 
-router.get("/getrecord/:id", (req, res) => {
-    const id = req.params.id
-
-    const query = "SELECT * FROM records WHERE id = ?"
-    connection.query(query, [id], (err, rows, field) => {
-        if(err) {
-            res.status(500).send({message: err.sqlMessage})
-        } else {
-            res.json(rows)
-        }
-    })
-})
-
-router.get("/searchrecords", (req, res) => {
-    const s = req.query.s;
-
-    console.log(s)
-    const query = "SELECT * FROM records WHERE name LIKE '%" + s + "%' or notes LIKE '%" + s + "%'"
+router.get("/getsukabumi", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Sukabumi'"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -88,71 +65,119 @@ router.get("/searchrecords", (req, res) => {
     })
 })
 
-router.post("/insertrecord", multer.single('attachment'), imgUpload.uploadToGcs, (req, res) => {
-    const name = req.body.name
-    const amount = req.body.amount
-    const date = req.body.date
-    const notes = req.body.notes
-    var imageUrl = ''
-
-    if (req.file && req.file.cloudStoragePublicUrl) {
-        imageUrl = req.file.cloudStoragePublicUrl
-    }
-
-    const query = "INSERT INTO records (name, amount, date, notes, attachment) values (?, ?, ?, ?, ?)"
-
-    connection.query(query, [name, amount, date, notes, imageUrl], (err, rows, fields) => {
-        if (err) {
+router.get("/gettasikmalaya", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Tasikmalaya'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
             res.status(500).send({message: err.sqlMessage})
         } else {
-            res.send({message: "Insert Successful"})
+            res.json(rows)
         }
     })
 })
 
-router.put("/editrecord/:id", multer.single('attachment'), imgUpload.uploadToGcs, (req, res) => {
-    const id = req.params.id
-    const name = req.body.name
-    const amount = req.body.amount
-    const date = req.body.date
-    const notes = req.body.notes
-    var imageUrl = ''
-
-    if (req.file && req.file.cloudStoragePublicUrl) {
-        imageUrl = req.file.cloudStoragePublicUrl
-    }
-
-    const query = "UPDATE records SET name = ?, amount = ?, date = ?, notes = ?, attachment = ? WHERE id = ?"
-    
-    connection.query(query, [name, amount, date, notes, imageUrl, id], (err, rows, fields) => {
-        if (err) {
+router.get("/getciamis", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Ciamis'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
             res.status(500).send({message: err.sqlMessage})
         } else {
-            res.send({message: "Update Successful"})
+            res.json(rows)
         }
     })
 })
 
-router.delete("/deleterecord/:id", (req, res) => {
-    const id = req.params.id
-    
-    const query = "DELETE FROM records WHERE id = ?"
-    connection.query(query, [id], (err, rows, fields) => {
-        if (err) {
+router.get("/getpangandaran", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Pangandaran'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
             res.status(500).send({message: err.sqlMessage})
         } else {
-            res.send({message: "Delete successful"})
+            res.json(rows)
         }
     })
 })
 
-router.post("/uploadImage", multer.single('image'), imgUpload.uploadToGcs, (req, res, next) => {
-    const data = req.body
-    if (req.file && req.file.cloudStoragePublicUrl) {
-        data.imageUrl = req.file.cloudStoragePublicUrl
-    }
-
-    res.send(data)
+router.get("/getbanjar", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Banjar'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
 })
+
+router.get("/getcilegon", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Cilegon'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+router.get("/getserang", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Serang'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+router.get("/getpandeglang", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Pandeglang'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+router.get("/getlebak", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Lebak'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+// router.get("/getrecord/:id", (req, res) => {
+//     const id = req.params.id
+
+//     const query = "SELECT * FROM records WHERE id = ?"
+//     connection.query(query, [id], (err, rows, field) => {
+//         if(err) {
+//             res.status(500).send({message: err.sqlMessage})
+//         } else {
+//             res.json(rows)
+//         }
+//     })
+// })
+
+// router.get("/searchrecords", (req, res) => {
+//     const s = req.query.s;
+
+//     console.log(s)
+//     const query = "SELECT * FROM records WHERE name LIKE '%" + s + "%' or notes LIKE '%" + s + "%'"
+//     connection.query(query, (err, rows, field) => {
+//         if(err) {
+//             res.status(500).send({message: err.sqlMessage})
+//         } else {
+//             res.json(rows)
+//         }
+//     })
+// })
 
 module.exports = router
