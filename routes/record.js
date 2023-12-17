@@ -21,39 +21,6 @@ router.get("/", (req, res) => {
     })
 })
 
-// router.get("/getnature", (req, res) => {
-//     const query = "SELECT * FROM data_wisata where Kategori='Nature-Adventure'"
-//     connection.query(query, (err, rows, field) => {
-//         if(err) {
-//             res.status(500).send({message: err.sqlMessage})
-//         } else {
-//             res.json(rows)
-//         }
-//     })
-// })
-
-// router.get("/geturban", (req, res) => {
-//     const query = "SELECT * FROM data_wisata where Kategori='Urban-Fam'"
-//     connection.query(query, (err, rows, field) => {
-//         if(err) {
-//             res.status(500).send({message: err.sqlMessage})
-//         } else {
-//             res.json(rows)
-//         }
-//     })
-// })
-
-// router.get("/getedu", (req, res) => {
-//     const query = "SELECT * FROM data_wisata where Kategori='Edu-Culture-Food'"
-//     connection.query(query, (err, rows, field) => {
-//         if(err) {
-//             res.status(500).send({message: err.sqlMessage})
-//         } else {
-//             res.json(rows)
-//         }
-//     })
-// })
-
 router.get("/getsukabumi", (req, res) => {
     const query = "SELECT * FROM data_wisata where Kota='Sukabumi'"
     connection.query(query, (err, rows, field) => {
