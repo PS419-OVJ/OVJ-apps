@@ -2,7 +2,6 @@ const express = require('express')
 const mysql = require('mysql')
 const router = express.Router()
 
-// TODO: Sesuaikan konfigurasi database
 const connection = mysql.createConnection({
     host: '34.101.176.249',
     user: 'root',
@@ -121,7 +120,7 @@ router.get("/getlebak", (req, res) => {
 })
 
 router.get("/getalam", (req, res) => {
-    const query = "SELECT * FROM data_komplit WHERE FIND_IN_SET('Alam', kategori) > 0;"
+    const query = "SELECT * FROM data_wisata WHERE FIND_IN_SET('Alam', kategori) > 0;"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -132,7 +131,7 @@ router.get("/getalam", (req, res) => {
 })
 
 router.get("/getkeluarga", (req, res) => {
-    const query = "SELECT * FROM data_komplit WHERE FIND_IN_SET('Keluarga', kategori) > 0;"
+    const query = "SELECT * FROM data_wisata WHERE FIND_IN_SET('Keluarga', kategori) > 0;"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -143,7 +142,7 @@ router.get("/getkeluarga", (req, res) => {
 })
 
 router.get("/getair", (req, res) => {
-    const query = "SELECT * FROM data_komplit WHERE FIND_IN_SET('Air', kategori) > 0;"
+    const query = "SELECT * FROM data_wisata WHERE FIND_IN_SET('Air', kategori) > 0;"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -154,7 +153,7 @@ router.get("/getair", (req, res) => {
 })
 
 router.get("/getsejarah", (req, res) => {
-    const query = "SELECT * FROM data_komplit WHERE FIND_IN_SET('Sejarah&Budaya', kategori) > 0;"
+    const query = "SELECT * FROM data_wisata WHERE FIND_IN_SET('Sejarah&Budaya', kategori) > 0;"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -165,7 +164,7 @@ router.get("/getsejarah", (req, res) => {
 })
 
 router.get("/getkuliner", (req, res) => {
-    const query = "SELECT * FROM data_komplit WHERE FIND_IN_SET('Kuliner', kategori) > 0;"
+    const query = "SELECT * FROM data_wisata WHERE FIND_IN_SET('Kuliner', kategori) > 0;"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -176,7 +175,7 @@ router.get("/getkuliner", (req, res) => {
 })
 
 router.get("/getpetualangan", (req, res) => {
-    const query = "SELECT * FROM data_komplit WHERE FIND_IN_SET('Petualangan', kategori) > 0;"
+    const query = "SELECT * FROM data_wisata WHERE FIND_IN_SET('Petualangan', kategori) > 0;"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -187,7 +186,7 @@ router.get("/getpetualangan", (req, res) => {
 })
 
 router.get("/getpendidikan", (req, res) => {
-    const query = "SELECT * FROM data_komplit WHERE FIND_IN_SET('Pendidikan', kategori) > 0;"
+    const query = "SELECT * FROM data_wisata WHERE FIND_IN_SET('Pendidikan', kategori) > 0;"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -198,7 +197,7 @@ router.get("/getpendidikan", (req, res) => {
 })
 
 router.get("/getreligi", (req, res) => {
-    const query = "SELECT * FROM data_komplit WHERE FIND_IN_SET('Religi', kategori) > 0;"
+    const query = "SELECT * FROM data_wisata WHERE FIND_IN_SET('Religi', kategori) > 0;"
     connection.query(query, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -213,7 +212,7 @@ router.get("/getonekategori", (req, res) => {
     if (!kategori) {
         return res.status(400).json({ message: 'Kategori tidak boleh kosong.' });
     }
-    const query = `SELECT * FROM data_komplit WHERE FIND_IN_SET(?, kategori) > 0;`
+    const query = `SELECT * FROM data_wisata WHERE FIND_IN_SET(?, kategori) > 0;`
     connection.query(query, [kategori], (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -225,7 +224,7 @@ router.get("/getonekategori", (req, res) => {
 
 // router.get("/gettwokategori", (req, res) => {
 //     const { kategori1, kategori2 } = req.body;
-//     const query = `SELECT * FROM data_komplit WHERE FIND_IN_SET(?, kategori) > 0 AND FIND_IN_SET(?, kategori) > 0;`
+//     const query = `SELECT * FROM data_wisata WHERE FIND_IN_SET(?, kategori) > 0 AND FIND_IN_SET(?, kategori) > 0;`
 //     connection.query(query, [kategori1, kategori2], (err, rows, field) => {
 //         if(err) {
 //             res.status(500).send({message: err.sqlMessage})
@@ -248,7 +247,7 @@ router.get("/getmorekategori", (req, res) => {
         kategoriArray = kategori.split(',');
     }
 
-    const query = `SELECT * FROM data_komplit WHERE ${kategoriArray.map(() => 'FIND_IN_SET(?, kategori)').join(' AND ')};`;
+    const query = `SELECT * FROM data_wisata WHERE ${kategoriArray.map(() => 'FIND_IN_SET(?, kategori)').join(' AND ')};`;
     connection.query(query, kategoriArray, (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
@@ -263,7 +262,7 @@ router.get("/getonekota", (req, res) => {
     if (!kota) {
         return res.status(400).json({ message: 'Kota tidak boleh kosong.' });
     }
-    const query = `SELECT * FROM data_komplit WHERE FIND_IN_SET(?, kota) > 0;`
+    const query = `SELECT * FROM data_wisata WHERE FIND_IN_SET(?, kota) > 0;`
     connection.query(query, [kota], (err, rows, field) => {
         if(err) {
             res.status(500).send({message: err.sqlMessage})
