@@ -2,11 +2,11 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
-const recordRouter = require('./routes/wisata')
+const wisataRouter = require('./routes/wisata')
 
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
-app.use(recordRouter)
+app.use(wisataRouter)
 
 app.get("/", (req, res) => {
     console.log("Response success")
