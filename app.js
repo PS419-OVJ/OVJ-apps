@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
 
-const recordRouter = require('./routes/record')
+const recordRouter = require('./routes/wisata')
 
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
