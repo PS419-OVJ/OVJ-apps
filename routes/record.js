@@ -256,6 +256,41 @@ router.get("/getonekategori", (req, res) => {
     })
 })
 
+// router.get("/gettwokategori", (req, res) => {
+//     const { kategori1, kategori2 } = req.body;
+//     const query = `SELECT * FROM data_komplit WHERE FIND_IN_SET(?, kategori) > 0 AND FIND_IN_SET(?, kategori) > 0;`
+//     connection.query(query, [kategori1, kategori2], (err, rows, field) => {
+//         if(err) {
+//             res.status(500).send({message: err.sqlMessage})
+//         } else {
+//             res.json(rows)
+//         }
+//     })
+// })
+
+router.get("/getmorekategori", (req, res) => {
+    const { kategori } = req.body;
+    if (!kategori) {
+        return res.status(400).json({ message: 'Kategori tidak boleh kosong.' });
+    }
+
+    let kategoriArray;
+    if (Array.isArray(kategori)) {
+        kategoriArray = kategori;
+    } else {
+        kategoriArray = kategori.split(',');
+    }
+
+    const query = `SELECT * FROM data_komplit WHERE ${kategoriArray.map(() => 'FIND_IN_SET(?, kategori)').join(' AND ')};`;
+    connection.query(query, kategoriArray, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
 router.get("/getonekota", (req, res) => {
     const { kota } = req.body;
     if (!kota) {
