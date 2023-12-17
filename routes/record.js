@@ -222,18 +222,6 @@ router.get("/getonekategori", (req, res) => {
     })
 })
 
-// router.get("/gettwokategori", (req, res) => {
-//     const { kategori1, kategori2 } = req.body;
-//     const query = `SELECT * FROM data_wisata WHERE FIND_IN_SET(?, kategori) > 0 AND FIND_IN_SET(?, kategori) > 0;`
-//     connection.query(query, [kategori1, kategori2], (err, rows, field) => {
-//         if(err) {
-//             res.status(500).send({message: err.sqlMessage})
-//         } else {
-//             res.json(rows)
-//         }
-//     })
-// })
-
 router.get("/getmorekategori", (req, res) => {
     const { kategori } = req.body;
     if (!kategori) {
@@ -271,33 +259,5 @@ router.get("/getonekota", (req, res) => {
         }
     })
 })
-
-
-// router.get("/getrecord/:id", (req, res) => {
-//     const id = req.params.id
-
-//     const query = "SELECT * FROM records WHERE id = ?"
-//     connection.query(query, [id], (err, rows, field) => {
-//         if(err) {
-//             res.status(500).send({message: err.sqlMessage})
-//         } else {
-//             res.json(rows)
-//         }
-//     })
-// })
-
-// router.get("/searchrecords", (req, res) => {
-//     const s = req.query.s;
-
-//     console.log(s)
-//     const query = "SELECT * FROM records WHERE name LIKE '%" + s + "%' or notes LIKE '%" + s + "%'"
-//     connection.query(query, (err, rows, field) => {
-//         if(err) {
-//             res.status(500).send({message: err.sqlMessage})
-//         } else {
-//             res.json(rows)
-//         }
-//     })
-// })
 
 module.exports = router
