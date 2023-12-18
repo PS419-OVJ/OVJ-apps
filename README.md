@@ -538,3 +538,42 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
   > https://capstone-ps419.et.r.appspot.com/getpendidikan
 
 <br>
+
+### Menampilkan Destinasi Wisata Berdasarkan Kategori
+- **Mendapatkan Semua Data Wisata Dengan Memilih Salah Satu Kategori**
+  
+ **Path :**
+
+  > /getonekategori 
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getonekategori 
+
+<br>
+
+- **Mendapatkan Semua Data Wisata Dengan Memilih Lebih Dari Satu Kategori**
+  
+ **Path :**
+
+  > /getmorekategori
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getmorekategori
+
+<br>
+
+
+- **Mendapatkan Semua Data Wisata Dengan Memilih Salah Satu Kota**
+  
+ **Path :**
+
+  > /getmorekategori
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getonekota
+<br>
+
+
