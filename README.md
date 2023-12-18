@@ -171,3 +171,66 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
     }
 ```
 <br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Cilegon**
+
+  **Path :**
+
+  > /getcilegon
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getcilegon
+
+  **Contoh Respon**
+
+```json
+  {
+        "ID": 111,
+        "Nama": "Pulau Merak Kecil",
+        "Rating": 4.5,
+        "Jam Operasional": "06.00-17.00 WIB",
+        "Tiket Masuk": "Rp17.000",
+        "Kategori": "Alam,Air,Petualangan,Kuliner",
+        "Kota": "Cilegon",
+        "Lokasi": "https://maps.app.goo.gl/muND6os8jFvAfjpk9",
+        "Deskripsi": "Pulau Merak Kecil berada di perairan Selat Sunda, Cilegon, Banten. Pulau tersebut menawarkan suasana pantai yang sejuk dengan hamparan pasir putih dan laut birunya yang menenangkan sehingga sangat cocok untuk melepas penat setelah beraktivitas selama hampir sepekan. Selain itu, saat ini pengunjung sudah dapat menikmati sejumlah fasilitas tambahan seperti banana boat, wisata naik perahu, dan snorkeling, terdapat juga fasilitas penunjang di antaranya toilet, tempat ganti pakaian, dan mushola. Meskipun ukurannya kecil, pulau tersebut memiliki beberapa akomodasi yang bisa digunakan untuk bermalam seperti homestay dan tenda. Selain itu, terdapat warung-warung kuliner yang menyediakan makanan laut segar."
+    }
+```
+<br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Serang**
+
+  **Path :**
+
+  > /getserang
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getserang
+
+  **Contoh Respon**
+
+```json
+{
+        "ID": 130,
+        "Nama": "Anyer Wonderland",
+        "Rating": 4.8,
+        "Jam Operasional": "09.00-22.00 WIB",
+        "Tiket Masuk": "Rp50.000",
+        "Kategori": "Keluarga,Air,Pendidikan",
+        "Kota": "Serang",
+        "Lokasi": "https://maps.app.goo.gl/XeC4QZHevrtGMmCGA",
+        "Deskripsi": "Anyer Wonderland adalah destinasi wisata terbaru yang menawarkan pengalaman seru dan menyenangkan untuk mengisi liburan bersama teman, keluarga, hingga pasangan. Beragam wahana permainan seru disajikan di Anyer Wonderland seperti Minizone, Mini Zoo, Rainbow Slide, Mini LRT, Banana dan Donat Boat, dan Snorkeling."
+    }
+```
+<br>
+
