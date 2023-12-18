@@ -108,5 +108,66 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
         "Deskripsi": "Family-friendly water park with swimming pools & tube slides, plus a splash zone for younger kids."
     }
 ```
+<br>
 
+- **Menampilkan Semua Wisata yang berlokasi di Pangandaran**
+
+  **Path :**
+
+  > /getpangandaran
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getpangandaran
+
+  **Contoh Respon**
+
+```json
+  {
+        "ID": 94,
+        "Nama": "Goa Sutra Reregan",
+        "Rating": 3.9,
+        "Jam Operasional": "07.00-18.30 WIB",
+        "Tiket Masuk": "Rp25.000",
+        "Kategori": "Alam,Air,Petualangan",
+        "Kota": "Pangandaran",
+        "Lokasi": "https://maps.app.goo.gl/FMZBc7WF3o6pPDtXA",
+        "Deskripsi": "Goa Sutra Reregan merupakan tempat wisata yang memiliki karakteristik yang unik yaitu stalakmit dan stalaktit yang masih alami, dan ini lah yang menjadi daya tarik bagi wisatawan."
+    }
+```
+<br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Banjar**
+
+  **Path :**
+
+  > /getbanjar
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getbanjar
+
+  **Contoh Respon**
+
+```json
+ {
+        "ID": 108,
+        "Nama": "Taman Pusat Dakwah Islam",
+        "Rating": 4.3,
+        "Jam Operasional": "24 Jam",
+        "Tiket Masuk": "Gratis",
+        "Kategori": "Keluarga,Pendidikan,Religi",
+        "Kota": "Banjar",
+        "Lokasi": "https://maps.app.goo.gl/Qmdd19KynMCHzPEL8",
+        "Deskripsi": "Ruang terbuka hijau di pinggir Sungai Citanduy yang mengelilingi gedung Pusdai, bisa dijadikan tempat untuk rekreasi, bermain, dan bersantai"
+    }
+```
 <br>
