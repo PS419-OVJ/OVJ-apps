@@ -21,7 +21,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ### Menampilkan Destinasi Wisata Berdasarkan Kota
 
-- **Menampilkan Semua Wisata yang berlokasi di Sukabumi**
+- **Mendapatkan Semua Data Wisata berlokasi di Sukabumi**
 
   **Path :**
 
@@ -49,7 +49,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Tasikmalaya**
+- **Mendapatkan Semua Data Wisata berlokasi di Tasikmalaya**
 
   **Path :**
 
@@ -76,7 +76,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Ciamis**
+- **Mendapatkan Semua Data Wisata berlokasi di Ciamis**
 
   **Path :**
 
@@ -103,7 +103,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Pangandaran**
+- **Mendapatkan Semua Data Wisata berlokasi di Pangandaran**
 
   **Path :**
 
@@ -130,7 +130,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Banjar**
+- **Mendapatkan Semua Data Wisata berlokasi di Banjar**
 
   **Path :**
 
@@ -157,7 +157,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Cilegon**
+- **Mendapatkan Semua Data Wisata berlokasi di Cilegon**
 
   **Path :**
 
@@ -185,7 +185,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Serang**
+- **Mendapatkan Semua Data Wisata berlokasi di Serang**
 
   **Path :**
 
@@ -212,7 +212,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Pandeglang**
+- **Mendapatkan Semua Data Wisata berlokasi di Pandeglang**
 
   **Path :**
 
@@ -239,7 +239,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Lebak**
+- **Mendapatkan Semua Data Wisata berlokasi di Lebak**
 
   **Path :**
 
@@ -265,7 +265,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
     }
 ```
 <br>
- - **Menampilkan Semua Wisata yang berlokasi di Bogor**
+ - **Mendapatkan Semua Data Wisata berlokasi di Bogor**
 
   **Path :**
 
@@ -292,7 +292,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Jakarta**
+- **Mendapatkan Semua Data Wisata berlokasi di Jakarta**
 
   **Path :**
 
@@ -319,7 +319,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Depok**
+- **Mendapatkan Semua Data Wisata berlokasi di Depok**
 
   **Path :**
 
@@ -346,7 +346,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Bekasi**
+- **Mendapatkan Semua Data Wisata berlokasi di Bekasi**
 
   **Path :**
 
@@ -373,7 +373,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Bekasi**
+- **Mendapatkan Semua Data Wisata berlokasi di Bekasi**
 
   **Path :**
 
@@ -400,7 +400,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Tangerang**
+- **Mendapatkan Semua Data Wisata berlokasi di Tangerang**
 
   **Path :**
 
@@ -427,7 +427,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Bandung**
+- **Mendapatkan Semua Data Wisata berlokasi di Bandung**
 
   **Path :**
 
@@ -569,7 +569,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
   
  **Path :**
 
-  > /getmorekategori
+  > /getonekota
   
   **Contoh Perintah**
 
