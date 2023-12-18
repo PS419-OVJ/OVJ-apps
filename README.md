@@ -8,7 +8,7 @@ Dalam membuat **REST API** kami menggunakan Node.js dan Framwoek Express.js, unt
 
 ## Daftar Destinasi Wisata
 
-Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah Jawa bagian barat yang dapat difilter berdasarkan kota atau kategori. Respon dari setiap URL menggunakan format **JSON**.
+Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa bagian barat yang dapat difilter berdasarkan kota atau kategori. Respon dari setiap URL menggunakan format **JSON**.
 
 **Base URL :**
 
@@ -453,3 +453,28 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
     }
 ```
 <br>
+
+### Menampilkan Destinasi Wisata Berdasarkan Kota
+
+- **Mendapatkan Semua Data Wisata Dengan Kategori Alam**
+ **Path :**
+
+  > /getalam
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getalam
+
+<br>
+
+- **Mendapatkan Semua Data Wisata Dengan Kategori Keluarga**
+ **Path :**
+
+  > /getkeluarga
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getkeluarga
+
+<br>
+  
