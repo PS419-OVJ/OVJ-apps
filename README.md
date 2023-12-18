@@ -265,7 +265,8 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
     }
 ```
 <br>
- - **Mendapatkan Semua Data Wisata berlokasi di Bogor**
+
+- **Mendapatkan Semua Data Wisata berlokasi di Bogor**
 
   **Path :**
 
