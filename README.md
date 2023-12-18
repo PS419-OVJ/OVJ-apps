@@ -14,7 +14,7 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
 
 > https://capstone-ps419.et.r.appspot.com/
 
-### Menampilkan Destinasi Wisata Berdasrkan Kota
+### Menampilkan Destinasi Wisata Berdasarkan Kota
 
 - **Menampilkan Semua Wisata yang berlokasi di Sukabumi**
 
@@ -48,3 +48,65 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
 
 <br>
 
+- **Menampilkan Semua Wisata yang berlokasi di Tasikmalaya **
+
+  **Path :**
+
+  > /gettasikmalaya
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/gettasikmalaya
+
+  **Contoh Respon**
+
+```json
+{
+        "ID": 61,
+        "Nama": "Taman Wisata Karang Resik",
+        "Rating": 4.3,
+        "Jam Operasional": "09.00-16.00 WIB",
+        "Tiket Masuk": "Rp35.000",
+        "Kategori": "Keluarga,Air",
+        "Kota": "Tasikmalaya",
+        "Lokasi": "https://maps.app.goo.gl/8udi3J91J6e692mG6",
+        "Deskripsi": "Taman Wisata Karang Resik adalah sebuah taman hiburan keluarga yang terletak di Jalan Mohamad Hatta, Tasikmalaya, Jawa Barat. Taman ini memiliki luas sekitar 5 hektar dan menawarkan berbagai macam wahana permainan, mulai dari seluncur air, kolam renang, hingga wahana permainan anak-anak."
+    }
+```
+<br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Ciamis**
+
+  **Path :**
+
+  > /getciamis
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getciamis
+
+  **Contoh Respon**
+
+```json
+ {
+        "ID": 75,
+        "Nama": "Wahana Edukasi Sukahaji Waterboom",
+        "Rating": 4.3,
+        "Jam Operasional": "08.00-16.00 WIB",
+        "Tiket Masuk": "Rp25.000",
+        "Kategori": "Keluarga,Air",
+        "Kota": "Ciamis",
+        "Lokasi": "https://maps.app.goo.gl/ortBWGLkXaNoSKXe8",
+        "Deskripsi": "Family-friendly water park with swimming pools & tube slides, plus a splash zone for younger kids."
+    }
+```
+
+<br>
