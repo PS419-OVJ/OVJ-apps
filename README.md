@@ -454,9 +454,10 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-### Menampilkan Destinasi Wisata Berdasarkan Kota
+### Menampilkan Destinasi Wisata Berdasarkan Kategori
 
 - **Mendapatkan Semua Data Wisata Dengan Kategori Alam**
+  
  **Path :**
 
   > /getalam
@@ -468,6 +469,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 <br>
 
 - **Mendapatkan Semua Data Wisata Dengan Kategori Keluarga**
+  
  **Path :**
 
   > /getkeluarga
@@ -477,4 +479,62 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
   > https://capstone-ps419.et.r.appspot.com/getkeluarga
 
 <br>
+
+- **Mendapatkan Semua Data Wisata Dengan Kategori Air**
   
+ **Path :**
+
+  > /getair
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getair
+
+<br>
+
+- **Mendapatkan Semua Data Wisata Dengan Kategori Sejarah**
+  
+ **Path :**
+
+  > /getsejarah
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getsejarah
+
+<br>
+
+- **Mendapatkan Semua Data Wisata Dengan Kategori Kuliner**
+  
+ **Path :**
+
+  > /getkuliner
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getkuliner
+
+<br>
+
+- **Mendapatkan Semua Data Wisata Dengan Kategori Petualangan**
+  
+ **Path :**
+
+  > /getpetualangan
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getpetualangan
+<br>
+
+- **Mendapatkan Semua Data Wisata Dengan Kategori Pendidikan**
+  
+ **Path :**
+
+  > /getpendidikan
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getpendidikan
+
+<br>
