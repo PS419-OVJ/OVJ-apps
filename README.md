@@ -2,7 +2,7 @@
 
 Membuat **REST APIs** dan menerapkannya ke  [Google Cloud Platform](https://cloud.google.com) dengan menggunakan [Google App Engine](https://cloud.google.com/appengine) untuk saling komunikasi antara **Machine Learning** and **Mobile Development**. Dan Membuat database [Cloud SQL](https://cloud.google.com/sql) untuk menyimpan semua data. 
 
-## RESTful APIs
+## REST APIs
 
 Dalam membuat **REST API** kami menggunakan Node.js dan Framwoek Express.js, untuk respons menggunakan format **JSON**. Untuk masing-masing URL yang dapat digunakan akan dijelaskan dibawah ini.
 
@@ -295,6 +295,125 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
     }
 ```
 <br>
+- **Menampilkan Semua Wisata yang berlokasi di Bogor**
 
+  **Path :**
 
+  > /getbogor
 
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getbogor
+
+  **Contoh Respon**
+
+```json
+ {
+        "ID": 164,
+        "Nama": "Kebun Raya Bogor",
+        "Rating": 4.7,
+        "Jam Operasional": "07.00-16.00 WIB",
+        "Tiket Masuk": "Rp25.000-Rp35.000",
+        "Kategori": "Keluarga,Alam",
+        "Kota": "Bogor",
+        "Lokasi": "https://maps.app.goo.gl/g5WGLp8LDxfWrf7AA",
+        "Deskripsi": "Kebun Raya Bogor atau Kebun Botani Bogor adalah sebuah kebun botani besar yang terletak di Kota Bogor, Indonesia. Luasnya mencapai 87 hektar dan memiliki 15.000 jenis koleksi pohon dan tumbuhan."
+    }
+```
+<br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Jakarta**
+
+  **Path :**
+
+  > /getjakarta
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getjakarta
+
+  **Contoh Respon**
+
+```json
+{
+        "ID": 184,
+        "Nama": "Monumen nasional (Tugu Monas)",
+        "Rating": 4.6,
+        "Jam Operasional": "08.00-16.00 WIB",
+        "Tiket Masuk": "Rp4.000-Rp15.000",
+        "Kategori": "Keluarga,Pendidikan",
+        "Kota": "Jakarta",
+        "Lokasi": "https://maps.app.goo.gl/oKFreWYH53QvtbAj9",
+        "Deskripsi": "Monas merupakan ikon dari ibu kota, bahkan dari indonesia itu sendiri. Monas menjadi salah satu symbol kemerdekaan indonesia yang memiliki tinggi sekitar 32 meter."
+    }
+```
+<br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Depok**
+
+  **Path :**
+
+  > /getdepok
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getdepok
+
+  **Contoh Respon**
+
+```json
+ {
+        "ID": 195,
+        "Nama": "Fantasy Waterpark",
+        "Rating": 5,
+        "Jam Operasional": "08.00-17.00 WIB",
+        "Tiket Masuk": "Rp45.000-Rp65.000",
+        "Kategori": "Keluarga,Air",
+        "Kota": "Depok",
+        "Lokasi": "https://maps.app.goo.gl/qt64sZhcqcdzhUHW8",
+        "Deskripsi": "Fantasy Waterpark merupakan objek wisata terbaik di Depok yang cocok dikunjungi bersama keluarga. Destinasi ini mengusung konsep unik, yakni Negeri 1001 Malam yang identik dengan kisah Aladin. Konsep ini sangat menarik, terutama bagi anak-anak yang menyukai dongeng."
+    }
+```
+<br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Bekasi**
+
+  **Path :**
+
+  > /getbekasi
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getbekasi
+  **Contoh Respon**
+
+```json
+ {
+        "ID": 205,
+        "Nama": "Taman Buaya Indonesia Jaya",
+        "Rating": 4.1,
+        "Jam Operasional": "08.00-17.00 WIB",
+        "Tiket Masuk": "Rp20.000",
+        "Kategori": "Keluarga",
+        "Kota": "Bekasi",
+        "Lokasi": "https://maps.app.goo.gl/nFRUxBd4CvGW2EJS8",
+        "Deskripsi": "tempat wisata ini adalah tempat penangkaran buaya terbesar di Indonesia, dan bahkan di Asia"
+    }
+```
+<br>
