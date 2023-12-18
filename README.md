@@ -234,3 +234,67 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
 ```
 <br>
 
+- **Menampilkan Semua Wisata yang berlokasi di Pandeglang**
+
+  **Path :**
+
+  > /getpandeglang
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getpandeglang
+
+  **Contoh Respon**
+
+```json
+ {
+        "ID": 137,
+        "Nama": "Saung Biru Gunung Karang",
+        "Rating": 4.3,
+        "Jam Operasional": "09.00-17.00 WIB",
+        "Tiket Masuk": "Rp 10.000",
+        "Kategori": "Keluarga,Alam,Kuliner",
+        "Kota": "Pandeglang",
+        "Lokasi": "https://maps.app.goo.gl/D647DrnwKXF8jAXn8",
+        "Deskripsi": "Di Saung Biru Pandeglang banyak spot foto yang Instagramable, cocok untuk kamu yang ingin memiliki foto dengan view menarik dan aethetic."
+    }
+```
+<br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Lebak**
+
+  **Path :**
+
+  > /getlebak
+
+  **Method :**
+
+  > `GET`
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getlebak
+
+  **Contoh Respon**
+
+```json
+  {
+        "ID": 147,
+        "Nama": "Saba Baduy",
+        "Rating": 4.9,
+        "Jam Operasional": "24 Jam",
+        "Tiket Masuk": "Gratis",
+        "Kategori": "Alam,Petualangan,Sejarah&Budaya",
+        "Kota": "Lebak",
+        "Lokasi": "https://maps.app.goo.gl/Uc7oVJb5hJkeFtNN8",
+        "Deskripsi": "Suku Baduy merupakan suku yang hidup masih teguh memegang adat budaya nenek moyang sampai saat ini. Mereka hidup secara sederhana dan menyatu dengan alam. Alam yang masih alami dan budaya yang ditawarkan oleh kampung suku Baduy menjadi daya tarik tersendiri bagi daerah ini."
+    }
+```
+<br>
+
+
+
