@@ -374,33 +374,6 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Bekasi**
-
-  **Path :**
-
-  > /getbekasi
-  
-  **Contoh Perintah**
-
-  > https://capstone-ps419.et.r.appspot.com/getbekasi
-  
-  **Contoh Respon**
-
-```json
- {
-        "ID": 205,
-        "Nama": "Taman Buaya Indonesia Jaya",
-        "Rating": 4.1,
-        "Jam Operasional": "08.00-17.00 WIB",
-        "Tiket Masuk": "Rp20.000",
-        "Kategori": "Keluarga",
-        "Kota": "Bekasi",
-        "Lokasi": "https://maps.app.goo.gl/nFRUxBd4CvGW2EJS8",
-        "Deskripsi": "tempat wisata ini adalah tempat penangkaran buaya terbesar di Indonesia, dan bahkan di Asia"
-    }
-```
-<br>
-
 - **Mendapatkan Semua Data Wisata berlokasi di Tangerang**
 
   **Path :**
