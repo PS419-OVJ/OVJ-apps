@@ -14,6 +14,11 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
 
 > https://capstone-ps419.et.r.appspot.com/
 
+ **Method :**
+
+  > `GET`
+  
+
 ### Menampilkan Destinasi Wisata Berdasarkan Kota
 
 - **Menampilkan Semua Wisata yang berlokasi di Sukabumi**
@@ -21,10 +26,6 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
   **Path :**
 
   > /getsukabumi
-
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
@@ -48,15 +49,11 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
 
 <br>
 
-- **Menampilkan Semua Wisata yang berlokasi di Tasikmalaya **
+- **Menampilkan Semua Wisata yang berlokasi di Tasikmalaya**
 
   **Path :**
 
   > /gettasikmalaya
-
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
@@ -85,10 +82,6 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
 
   > /getciamis
 
-  **Method :**
-
-  > `GET`
-  
   **Contoh Perintah**
 
   > https://capstone-ps419.et.r.appspot.com/getciamis
@@ -115,10 +108,6 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
   **Path :**
 
   > /getpangandaran
-
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
@@ -146,10 +135,6 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
   **Path :**
 
   > /getbanjar
-
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
@@ -178,9 +163,6 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
 
   > /getcilegon
 
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
@@ -209,10 +191,6 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
 
   > /getserang
 
-  **Method :**
-
-  > `GET`
-  
   **Contoh Perintah**
 
   > https://capstone-ps419.et.r.appspot.com/getserang
@@ -239,10 +217,6 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
   **Path :**
 
   > /getpandeglang
-
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
@@ -270,10 +244,6 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
   **Path :**
 
   > /getlebak
-
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
@@ -295,15 +265,11 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
     }
 ```
 <br>
-- **Menampilkan Semua Wisata yang berlokasi di Bogor**
+ - **Menampilkan Semua Wisata yang berlokasi di Bogor**
 
   **Path :**
 
   > /getbogor
-
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
@@ -331,10 +297,6 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
   **Path :**
 
   > /getjakarta
-
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
@@ -362,10 +324,6 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
   **Path :**
 
   > /getdepok
-
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
@@ -393,14 +351,11 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
   **Path :**
 
   > /getbekasi
-
-  **Method :**
-
-  > `GET`
   
   **Contoh Perintah**
 
   > https://capstone-ps419.et.r.appspot.com/getbekasi
+  
   **Contoh Respon**
 
 ```json
@@ -414,6 +369,87 @@ Di bagian ini terdapat daftar semua Daftar Destinasi Wisata yang ada di wilayah 
         "Kota": "Bekasi",
         "Lokasi": "https://maps.app.goo.gl/nFRUxBd4CvGW2EJS8",
         "Deskripsi": "tempat wisata ini adalah tempat penangkaran buaya terbesar di Indonesia, dan bahkan di Asia"
+    }
+```
+<br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Bekasi**
+
+  **Path :**
+
+  > /getbekasi
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getbekasi
+  
+  **Contoh Respon**
+
+```json
+ {
+        "ID": 205,
+        "Nama": "Taman Buaya Indonesia Jaya",
+        "Rating": 4.1,
+        "Jam Operasional": "08.00-17.00 WIB",
+        "Tiket Masuk": "Rp20.000",
+        "Kategori": "Keluarga",
+        "Kota": "Bekasi",
+        "Lokasi": "https://maps.app.goo.gl/nFRUxBd4CvGW2EJS8",
+        "Deskripsi": "tempat wisata ini adalah tempat penangkaran buaya terbesar di Indonesia, dan bahkan di Asia"
+    }
+```
+<br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Tangerang**
+
+  **Path :**
+
+  > /gettangerang
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/gettangerang
+  
+  **Contoh Respon**
+
+```json
+ {
+        "ID": 214,
+        "Nama": "Scientia Square Park",
+        "Rating": 4.5,
+        "Jam Operasional": "07.00-22.00 WIB",
+        "Tiket Masuk": "Rp45.000",
+        "Kategori": "Keluarga,Alam,Air",
+        "Kota": "Tangerang",
+        "Lokasi": "https://maps.app.goo.gl/8CCdpTwijFB7w1Sa8",
+        "Deskripsi": "Taman kota dengan jalur jogging, panjat tebing dan peternakan koi, serta taman skate dan pusat ping-pong."
+    }
+```
+<br>
+
+- **Menampilkan Semua Wisata yang berlokasi di Bandung**
+
+  **Path :**
+
+  > /getbandung
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getbandung
+  
+  **Contoh Respon**
+
+```json
+{
+        "ID": 229,
+        "Nama": "tangkuban parahu",
+        "Rating": 4.5,
+        "Jam Operasional": "08.00-17.00 WIB",
+        "Tiket Masuk": "Rp30.000-Rp200.000",
+        "Kategori": "Keluarga,Alam",
+        "Kota": "Bandung",
+        "Lokasi": "https://maps.app.goo.gl/1zLRWNCBtLzfFh516",
+        "Deskripsi": "Gunung Tangkuban Parahu adalah salah satu gunung berapi aktif di Indonesia yang terletak di Kabupaten Bandung Barat, Jawa Barat. Gunung ini memiliki ketinggian 2.084 meter di atas permukaan laut dan merupakan salah satu destinasi wisata alam yang populer di Bandung."
     }
 ```
 <br>
