@@ -119,6 +119,72 @@ router.get("/getlebak", (req, res) => {
     })
 })
 
+router.get("/getbogor", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Bogor'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+router.get("/getjakarta", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Jakarta'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+router.get("/getdepok", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Depok'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+router.get("/getbekasi", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Bekasi'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+router.get("/gettangerang", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Tangerang'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+router.get("/getbandung", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Bandung'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
 router.get("/getalam", (req, res) => {
     const query = "SELECT * FROM data_wisata WHERE FIND_IN_SET('Alam', kategori) > 0;"
     connection.query(query, (err, rows, field) => {
