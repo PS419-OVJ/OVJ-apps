@@ -437,6 +437,86 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
+- **Mendapatkan Semua Data Wisata berlokasi di Cirebon**
+
+  **Path :**
+
+  > /getcirebon
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getcirebon
+  
+  **Contoh Respon**
+
+```json
+{
+        "Id_destinasi": 284,
+        "Nama": "Keraton Kasepuhan Cirebon",
+        "Rating": 4.5,
+        "Jam Operasional": "08.00-16.00 WIB",
+        "Tiket Masuk": "Rp20.000",
+        "Kategori": "Keluarga,Sejarah&Budaya,Religi",
+        "Kota": "Cirebon",
+        "Lokasi": "https://maps.app.goo.gl/qehg8f9jKu9KVNuU6",
+        "Deskripsi": "Keraton ini adalah istana kerajaan yang kaya sejarah, dengan arsitektur yang memukau dan museum yang mengungkapkan warisan budaya Cirebon"
+    }
+```
+<br>
+
+- **Mendapatkan Semua Data Wisata berlokasi di Garut**
+
+  **Path :**
+
+  > /getgarut
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getgarut
+  
+  **Contoh Respon**
+
+```json
+{
+        "Id_destinasi": 345,
+        "Nama": "Gunung Guntur",
+        "Rating": 4.6,
+        "Jam Operasional": "24 Jam",
+        "Tiket Masuk": "Rp14.500",
+        "Kategori": "Alam,Petualangan",
+        "Kota": "Garut",
+        "Lokasi": "https://maps.app.goo.gl/UUwJ347iHfbYPctV8",
+        "Deskripsi": "Jika Anda menyukai kegiatan naik gunung, maka Gunung Guntur dapat menjadi pilihan wisata. Gunung ini berada di ketinggian sekitar 2.249 meter di atas permukaan laut dan memiliki ciri khas lahan yang tandus dan sedikit rumput"
+    }
+```
+<br>
+
+- **Mendapatkan Semua Data Wisata berlokasi di Kuningan**
+
+  **Path :**
+
+  > /getkuningan
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getkuningan
+  
+  **Contoh Respon**
+
+```json
+{
+        "Id_destinasi": 291,
+        "Nama": "Taman Purbakala Cipari",
+        "Rating": 4.4,
+        "Jam Operasional": "08.00-16.00 WIB",
+        "Tiket Masuk": "Rp5.000",
+        "Kategori": "Sejarah&Budaya,Pendidikan",
+        "Kota": "Kuningan",
+        "Lokasi": "https://maps.app.goo.gl/juMErYXC4xm2KLMq5",
+        "Deskripsi": "Taman Purbakala Cipari adalah situs arkeologi yang terkenal karena penemuan prasasti-prasasti Canggal yang berasal dari abad ke-8 Masehi. Situs ini memberikan wawasan tentang sejarah dan peradaban masa lalu di wilayah tersebut"
+    }
+```
+<br>
 ### Menampilkan Destinasi Wisata Berdasarkan Kategori
 
 - **Mendapatkan Semua Data Wisata Dengan Kategori Alam**
