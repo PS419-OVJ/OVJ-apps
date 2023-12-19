@@ -186,6 +186,39 @@ router.get("/getbandung", (req, res) => {
     })
 })
 
+router.get("/getgarut", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Garut'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+router.get("/getcirebon", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Cirebon'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
+router.get("/getkuningan", (req, res) => {
+    const query = "SELECT * FROM data_wisata where Kota='Kuningan'"
+    connection.query(query, (err, rows, field) => {
+        if(err) {
+            res.status(500).send({message: err.sqlMessage})
+        } else {
+            res.json(rows)
+        }
+    })
+})
+
 router.get("/getalam", (req, res) => {
     const query = "SELECT * FROM data_wisata WHERE FIND_IN_SET('Alam', kategori) > 0;"
     connection.query(query, (err, rows, field) => {
