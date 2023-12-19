@@ -44,7 +44,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
 {
-        "ID": 1,
+        "Id_destinasi": 1,
         "Nama": "Geopark Ciletuh",
         "Rating": 4.6,
         "Jam Operasional": "24 Jam",
@@ -72,7 +72,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
 {
-        "ID": 61,
+        "Id_destinasi": 61,
         "Nama": "Taman Wisata Karang Resik",
         "Rating": 4.3,
         "Jam Operasional": "09.00-16.00 WIB",
@@ -99,7 +99,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
  {
-        "ID": 75,
+        "Id_destinasi": 75,
         "Nama": "Wahana Edukasi Sukahaji Waterboom",
         "Rating": 4.3,
         "Jam Operasional": "08.00-16.00 WIB",
@@ -126,7 +126,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
   {
-        "ID": 94,
+        "Id_destinasi": 94,
         "Nama": "Goa Sutra Reregan",
         "Rating": 3.9,
         "Jam Operasional": "07.00-18.30 WIB",
@@ -153,7 +153,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
  {
-        "ID": 108,
+        "Id_destinasi": 108,
         "Nama": "Taman Pusat Dakwah Islam",
         "Rating": 4.3,
         "Jam Operasional": "24 Jam",
@@ -181,7 +181,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
   {
-        "ID": 111,
+        "Id_destinasi": 111,
         "Nama": "Pulau Merak Kecil",
         "Rating": 4.5,
         "Jam Operasional": "06.00-17.00 WIB",
@@ -208,7 +208,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
 {
-        "ID": 130,
+        "Id_destinasi": 130,
         "Nama": "Anyer Wonderland",
         "Rating": 4.8,
         "Jam Operasional": "09.00-22.00 WIB",
@@ -235,7 +235,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
  {
-        "ID": 137,
+        "Id_destinasi": 137,
         "Nama": "Saung Biru Gunung Karang",
         "Rating": 4.3,
         "Jam Operasional": "09.00-17.00 WIB",
@@ -262,7 +262,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
   {
-        "ID": 147,
+        "Id_destinasi": 147,
         "Nama": "Saba Baduy",
         "Rating": 4.9,
         "Jam Operasional": "24 Jam",
@@ -289,7 +289,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
  {
-        "ID": 164,
+        "Id_destinasi": 164,
         "Nama": "Kebun Raya Bogor",
         "Rating": 4.7,
         "Jam Operasional": "07.00-16.00 WIB",
@@ -316,7 +316,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
 {
-        "ID": 184,
+        "Id_destinasi": 184,
         "Nama": "Monumen nasional (Tugu Monas)",
         "Rating": 4.6,
         "Jam Operasional": "08.00-16.00 WIB",
@@ -343,7 +343,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
  {
-        "ID": 195,
+        "Id_destinasi": 195,
         "Nama": "Fantasy Waterpark",
         "Rating": 5,
         "Jam Operasional": "08.00-17.00 WIB",
@@ -370,7 +370,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
  {
-        "ID": 205,
+        "Id_destinasi": 205,
         "Nama": "Taman Buaya Indonesia Jaya",
         "Rating": 4.1,
         "Jam Operasional": "08.00-17.00 WIB",
@@ -397,7 +397,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
  {
-        "ID": 214,
+        "Id_destinasi": 214,
         "Nama": "Scientia Square Park",
         "Rating": 4.5,
         "Jam Operasional": "07.00-22.00 WIB",
@@ -424,7 +424,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ```json
 {
-        "ID": 229,
+        "Id_destinasi": 229,
         "Nama": "tangkuban parahu",
         "Rating": 4.5,
         "Jam Operasional": "08.00-17.00 WIB",
