@@ -517,6 +517,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
     }
 ```
 <br>
+
 ### Menampilkan Destinasi Wisata Berdasarkan Kategori
 
 - **Mendapatkan Semua Data Wisata Dengan Kategori Alam**
