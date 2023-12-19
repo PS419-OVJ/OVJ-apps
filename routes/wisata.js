@@ -1,15 +1,16 @@
 const express = require('express')
 const mysql = require('mysql')
 const router = express.Router()
+require("dotenv").config()
 
 const connection = mysql.createConnection({
-    host: '34.101.176.249',
-    user: 'root',
-    database: 'ps419',
-    password: '123456'
+    host: process.env.HOST_DB,
+    user: process.env.USER_DB,
+    database: process.env.NAME_DB,
+    password: process.env.PASSWORD_DB
 })
 
-router.get("/", (req, res) => {
+router.get("/wisata", (req, res) => {
     const query = "select * FROM data_wisata"
     connection.query(query, (err, rows, field) => {
         if(err) {
