@@ -166,6 +166,141 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
+- **Mendapatkan Semua Data Wisata berlokasi di Kuningan**
+
+  **Path :**
+
+  > /getkuningan
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getkuningan
+  
+  **Contoh Respon**
+
+```json
+{
+        "Id_destinasi": 291,
+        "Nama": "Taman Purbakala Cipari",
+        "Rating": 4.4,
+        "Jam Operasional": "08.00-16.00 WIB",
+        "Tiket Masuk": "Rp5.000",
+        "Kategori": "Sejarah&Budaya,Pendidikan",
+        "Kota": "Kuningan",
+        "Lokasi": "https://maps.app.goo.gl/juMErYXC4xm2KLMq5",
+        "Deskripsi": "Taman Purbakala Cipari adalah situs arkeologi yang terkenal karena penemuan prasasti-prasasti Canggal yang berasal dari abad ke-8 Masehi. Situs ini memberikan wawasan tentang sejarah dan peradaban masa lalu di wilayah tersebut"
+    }
+```
+<br>
+
+- **Mendapatkan Semua Data Wisata berlokasi di Bogor**
+
+  **Path :**
+
+  > /getbogor
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getbogor
+
+  **Contoh Respon**
+
+```json
+ {
+        "Id_destinasi": 164,
+        "Nama": "Kebun Raya Bogor",
+        "Rating": 4.7,
+        "Jam Operasional": "07.00-16.00 WIB",
+        "Tiket Masuk": "Rp25.000-Rp35.000",
+        "Kategori": "Keluarga,Alam",
+        "Kota": "Bogor",
+        "Lokasi": "https://maps.app.goo.gl/g5WGLp8LDxfWrf7AA",
+        "Deskripsi": "Kebun Raya Bogor atau Kebun Botani Bogor adalah sebuah kebun botani besar yang terletak di Kota Bogor, Indonesia. Luasnya mencapai 87 hektar dan memiliki 15.000 jenis koleksi pohon dan tumbuhan."
+    }
+```
+<br>
+
+- **Mendapatkan Semua Data Wisata berlokasi di Bandung**
+
+  **Path :**
+
+  > /getbandung
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getbandung
+  
+  **Contoh Respon**
+
+```json
+{
+        "Id_destinasi": 229,
+        "Nama": "tangkuban parahu",
+        "Rating": 4.5,
+        "Jam Operasional": "08.00-17.00 WIB",
+        "Tiket Masuk": "Rp30.000-Rp200.000",
+        "Kategori": "Keluarga,Alam",
+        "Kota": "Bandung",
+        "Lokasi": "https://maps.app.goo.gl/1zLRWNCBtLzfFh516",
+        "Deskripsi": "Gunung Tangkuban Parahu adalah salah satu gunung berapi aktif di Indonesia yang terletak di Kabupaten Bandung Barat, Jawa Barat. Gunung ini memiliki ketinggian 2.084 meter di atas permukaan laut dan merupakan salah satu destinasi wisata alam yang populer di Bandung."
+    }
+```
+<br>
+
+- **Mendapatkan Semua Data Wisata berlokasi di Cirebon**
+
+  **Path :**
+
+  > /getcirebon
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getcirebon
+  
+  **Contoh Respon**
+
+```json
+{
+        "Id_destinasi": 284,
+        "Nama": "Keraton Kasepuhan Cirebon",
+        "Rating": 4.5,
+        "Jam Operasional": "08.00-16.00 WIB",
+        "Tiket Masuk": "Rp20.000",
+        "Kategori": "Keluarga,Sejarah&Budaya,Religi",
+        "Kota": "Cirebon",
+        "Lokasi": "https://maps.app.goo.gl/qehg8f9jKu9KVNuU6",
+        "Deskripsi": "Keraton ini adalah istana kerajaan yang kaya sejarah, dengan arsitektur yang memukau dan museum yang mengungkapkan warisan budaya Cirebon"
+    }
+```
+<br>
+
+- **Mendapatkan Semua Data Wisata berlokasi di Garut**
+
+  **Path :**
+
+  > /getgarut
+  
+  **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/getgarut
+  
+  **Contoh Respon**
+
+```json
+{
+        "Id_destinasi": 345,
+        "Nama": "Gunung Guntur",
+        "Rating": 4.6,
+        "Jam Operasional": "24 Jam",
+        "Tiket Masuk": "Rp14.500",
+        "Kategori": "Alam,Petualangan",
+        "Kota": "Garut",
+        "Lokasi": "https://maps.app.goo.gl/UUwJ347iHfbYPctV8",
+        "Deskripsi": "Jika Anda menyukai kegiatan naik gunung, maka Gunung Guntur dapat menjadi pilihan wisata. Gunung ini berada di ketinggian sekitar 2.249 meter di atas permukaan laut dan memiliki ciri khas lahan yang tandus dan sedikit rumput"
+    }
+```
+<br>
+
 - **Mendapatkan Semua Data Wisata berlokasi di Cilegon**
 
   **Path :**
@@ -275,32 +410,7 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Bogor**
 
-  **Path :**
-
-  > /getbogor
-  
-  **Contoh Perintah**
-
-  > https://capstone-ps419.et.r.appspot.com/getbogor
-
-  **Contoh Respon**
-
-```json
- {
-        "Id_destinasi": 164,
-        "Nama": "Kebun Raya Bogor",
-        "Rating": 4.7,
-        "Jam Operasional": "07.00-16.00 WIB",
-        "Tiket Masuk": "Rp25.000-Rp35.000",
-        "Kategori": "Keluarga,Alam",
-        "Kota": "Bogor",
-        "Lokasi": "https://maps.app.goo.gl/g5WGLp8LDxfWrf7AA",
-        "Deskripsi": "Kebun Raya Bogor atau Kebun Botani Bogor adalah sebuah kebun botani besar yang terletak di Kota Bogor, Indonesia. Luasnya mencapai 87 hektar dan memiliki 15.000 jenis koleksi pohon dan tumbuhan."
-    }
-```
-<br>
 
 - **Mendapatkan Semua Data Wisata berlokasi di Jakarta**
 
@@ -410,113 +520,6 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Bandung**
-
-  **Path :**
-
-  > /getbandung
-  
-  **Contoh Perintah**
-
-  > https://capstone-ps419.et.r.appspot.com/getbandung
-  
-  **Contoh Respon**
-
-```json
-{
-        "Id_destinasi": 229,
-        "Nama": "tangkuban parahu",
-        "Rating": 4.5,
-        "Jam Operasional": "08.00-17.00 WIB",
-        "Tiket Masuk": "Rp30.000-Rp200.000",
-        "Kategori": "Keluarga,Alam",
-        "Kota": "Bandung",
-        "Lokasi": "https://maps.app.goo.gl/1zLRWNCBtLzfFh516",
-        "Deskripsi": "Gunung Tangkuban Parahu adalah salah satu gunung berapi aktif di Indonesia yang terletak di Kabupaten Bandung Barat, Jawa Barat. Gunung ini memiliki ketinggian 2.084 meter di atas permukaan laut dan merupakan salah satu destinasi wisata alam yang populer di Bandung."
-    }
-```
-<br>
-
-- **Mendapatkan Semua Data Wisata berlokasi di Cirebon**
-
-  **Path :**
-
-  > /getcirebon
-  
-  **Contoh Perintah**
-
-  > https://capstone-ps419.et.r.appspot.com/getcirebon
-  
-  **Contoh Respon**
-
-```json
-{
-        "Id_destinasi": 284,
-        "Nama": "Keraton Kasepuhan Cirebon",
-        "Rating": 4.5,
-        "Jam Operasional": "08.00-16.00 WIB",
-        "Tiket Masuk": "Rp20.000",
-        "Kategori": "Keluarga,Sejarah&Budaya,Religi",
-        "Kota": "Cirebon",
-        "Lokasi": "https://maps.app.goo.gl/qehg8f9jKu9KVNuU6",
-        "Deskripsi": "Keraton ini adalah istana kerajaan yang kaya sejarah, dengan arsitektur yang memukau dan museum yang mengungkapkan warisan budaya Cirebon"
-    }
-```
-<br>
-
-- **Mendapatkan Semua Data Wisata berlokasi di Garut**
-
-  **Path :**
-
-  > /getgarut
-  
-  **Contoh Perintah**
-
-  > https://capstone-ps419.et.r.appspot.com/getgarut
-  
-  **Contoh Respon**
-
-```json
-{
-        "Id_destinasi": 345,
-        "Nama": "Gunung Guntur",
-        "Rating": 4.6,
-        "Jam Operasional": "24 Jam",
-        "Tiket Masuk": "Rp14.500",
-        "Kategori": "Alam,Petualangan",
-        "Kota": "Garut",
-        "Lokasi": "https://maps.app.goo.gl/UUwJ347iHfbYPctV8",
-        "Deskripsi": "Jika Anda menyukai kegiatan naik gunung, maka Gunung Guntur dapat menjadi pilihan wisata. Gunung ini berada di ketinggian sekitar 2.249 meter di atas permukaan laut dan memiliki ciri khas lahan yang tandus dan sedikit rumput"
-    }
-```
-<br>
-
-- **Mendapatkan Semua Data Wisata berlokasi di Kuningan**
-
-  **Path :**
-
-  > /getkuningan
-  
-  **Contoh Perintah**
-
-  > https://capstone-ps419.et.r.appspot.com/getkuningan
-  
-  **Contoh Respon**
-
-```json
-{
-        "Id_destinasi": 291,
-        "Nama": "Taman Purbakala Cipari",
-        "Rating": 4.4,
-        "Jam Operasional": "08.00-16.00 WIB",
-        "Tiket Masuk": "Rp5.000",
-        "Kategori": "Sejarah&Budaya,Pendidikan",
-        "Kota": "Kuningan",
-        "Lokasi": "https://maps.app.goo.gl/juMErYXC4xm2KLMq5",
-        "Deskripsi": "Taman Purbakala Cipari adalah situs arkeologi yang terkenal karena penemuan prasasti-prasasti Canggal yang berasal dari abad ke-8 Masehi. Situs ini memberikan wawasan tentang sejarah dan peradaban masa lalu di wilayah tersebut"
-    }
-```
-<br>
 
 ### Menampilkan Destinasi Wisata Berdasarkan Kategori
 
