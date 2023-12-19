@@ -17,7 +17,16 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
  **Method :**
 
   > `GET`
-  
+
+- **Mendapatkan Semua Data Wisata**
+
+ **Path :**
+
+  > /wisata
+
+   **Contoh Perintah**
+
+  > https://capstone-ps419.et.r.appspot.com/wisata
 
 ### Menampilkan Destinasi Wisata Berdasarkan Kota
 
