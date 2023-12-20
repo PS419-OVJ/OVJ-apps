@@ -35,10 +35,10 @@ OVJ-Apps : Odyssey Van Java GitHub Repositories of Bangkit Academy 2023 H2 Capst
 
 In our project is divided into four branches.
 
-1. [main](https://github.com/AgungP88/getloc-apps/tree/main)
-2. [android-development](https://github.com/AgungP88/getloc-apps/tree/android-development)
-3. [cloud-computing](https://github.com/AgungP88/getloc-apps/tree/cloud-computing)
-4. [machine-learning](https://github.com/AgungP88/getloc-apps/tree/machine-learning)
+1. [main](https://github.com/PS419-OVJ/OVJ-apps/tree/main)
+2. [mobile-development](https://github.com/PS419-OVJ/OVJ-apps/tree/mobile-devlopment)
+3. [cloud-computing](https://github.com/PS419-OVJ/OVJ-apps/tree/cloud-computing)
+4. [machine-learning](https://github.com/PS419-OVJ/OVJ-apps/tree/machine-learning)
 
 # Getting Started
 
