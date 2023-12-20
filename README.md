@@ -27,7 +27,7 @@ OVJ-Apps : Odyssey Van Java GitHub Repositories of Bangkit Academy 2023 H2 Capst
 | Zakiah Aulia Romah       | M560BSX0261 | Machine Learning    |
 | Ramadhani Dwi Noviansyah | C560BSY3256 | Cloud Computing     |
 | Elsa Novita              | C701BSX4204 | Cloud Computing     |
-| Amirul Mubarok           | A560BSY2075 | Android Development |
+| Amirul Mubarok           | A560BSY2075 | Mobile Development |
 
 <br>
 
@@ -92,8 +92,7 @@ In our project is divided into four branches.
    - [Kotlin](https://kotlinlang.org/)
    - [Firebase](https://firebase.google.com/)
 3. Cloud Computing
-   - [Node.js](#)
-   - [Google Compute Engine](https://cloud.google.com/compute)
+   - [Node.js](https://nodejs.org/)
    - [Google App Engine](https://cloud.google.com/appengine)
    - [Google Cloud SQL](https://cloud.google.com/sql)
 4. Design
