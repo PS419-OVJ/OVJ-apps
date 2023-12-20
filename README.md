@@ -4,7 +4,7 @@ Membuat **REST APIs** dan menerapkannya ke  [Google Cloud Platform](https://clou
 
 ## REST APIs
 
-Dalam membuat **REST API** kami menggunakan Node.js dan Framework Express.js, untuk respons menggunakan format **JSON**. Untuk masing-masing URL yang dapat digunakan akan dijelaskan dibawah ini.
+Dalam membuat **REST API** kami menggunakan [Node.js](https://nodejs.org) dan Framework [Express.js](https://expressjs.com), untuk respons menggunakan format **JSON**. Untuk masing-masing URL yang dapat digunakan akan dijelaskan dibawah ini.
 
 ## Daftar Destinasi Wisata
 
