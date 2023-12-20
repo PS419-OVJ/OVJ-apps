@@ -88,7 +88,7 @@ In our project is divided into four branches.
 1. Machine Learning
    - [Tensorflow](https://www.tensorflow.org/)
    - [Python](https://www.python.org/)
-2. Android Development
+2. Mobile Development
    - [Kotlin](https://kotlinlang.org/)
    - [Firebase](https://firebase.google.com/)
 3. Cloud Computing
@@ -122,6 +122,11 @@ If you think something important is missing or should be different based on your
 | Name                  | Contact                                                                                                                                                                                                                                                                                                                                        |
 | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Ceceng Shufyan Yahya  | <a ><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://github.com/AgungP88"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>                   |
+| Hasyimi Ulil Abshor   | <a ><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://github.com/AgungP88"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>                   |
+| Zakiah Aulia Romah   | <a ><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://github.com/AgungP88"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>                   |
+| Ramadhani Dwi Noviansyah  | <a ><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://github.com/AgungP88"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>                   |
+| Elsa Novita  | <a href=https://www.linkedin.com/in/elsanovitaca/ ><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://github.com/AgungP88"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>                   |
+| Amirul Mubarok  | <a ><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://github.com/AgungP88"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a>                   |
                    
 # Acknowledgments
 
