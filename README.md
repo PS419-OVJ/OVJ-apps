@@ -1,2 +1,1 @@
-![image.png](image/logo.jpg)
-# OVJ Apps 
+# Mobile Devlopment Path
