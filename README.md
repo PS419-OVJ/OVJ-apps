@@ -80,7 +80,7 @@ In our project is divided into four branches.
 
 # Product
 
-[OVJ Apps](https://storage.googleapis.com/getloc-314510.appspot.com/getloc-1.0.apk)
+[OVJ Apps](#)
    <br>
 
 # Technology Used
