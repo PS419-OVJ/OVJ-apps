@@ -36,7 +36,7 @@ OVJ-Apps : Odyssey Van Java GitHub Repositories of Bangkit Academy 2023 H2 Capst
 In our project is divided into four branches.
 
 1. [main](https://github.com/PS419-OVJ/OVJ-apps/tree/main)
-2. [mobile-development](https://github.com/PS419-OVJ/OVJ-apps/tree/mobile-devlopment)
+2. [mobile-development](https://github.com/PS419-OVJ/OVJ-apps/tree/mobile-development)
 3. [cloud-computing](https://github.com/PS419-OVJ/OVJ-apps/tree/cloud-computing)
 4. [machine-learning](https://github.com/PS419-OVJ/OVJ-apps/tree/machine-learning)
 
