@@ -13,11 +13,11 @@ Following the design phase, we used Android Studio and the[Kotlin programming la
 # Preview Mobile Apps
 
 <p align="center">
-	<img src="![image](https://github.com/PS419-OVJ/OVJ-apps/assets/106564460/5ccc8e4f-0634-4bd8-a0c5-ab9a7b1c1c75)
+	<img src="![image](https://github.com/PS419-OVJ/OVJ-apps/assets/106564460/9bee8fa0-9b8b-4786-951d-bc14eb41a830)
 " width="25%"> &nbsp; &nbsp; &nbsp;
-		<img src="![image](https://github.com/PS419-OVJ/OVJ-apps/assets/106564460/58e031bb-300e-4f98-abaa-430f7f2669b2)
+	<img src="![image](https://github.com/PS419-OVJ/OVJ-apps/assets/106564460/5feed5b0-5ef9-469b-b11b-eae480b51f88)
 " width="25%"> &nbsp; &nbsp; &nbsp;
-	<img src="![image](https://github.com/PS419-OVJ/OVJ-apps/assets/106564460/514c06b1-c1b9-46e0-9d57-913ca79ffc60)
+	<img src="![image](https://github.com/PS419-OVJ/OVJ-apps/assets/106564460/09e7f161-b381-487c-9d3f-49a36f25d2bf)
 " width="25%">
 </p>
 
