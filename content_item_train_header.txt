@@ -1,0 +1,1 @@
+Id_destinasi,Tahun,Rating,Sejarah&Budaya,Alam,Air,Kuliner,Religi,Pendidikan,Keluarga,Petualangan

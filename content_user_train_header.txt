@@ -1,0 +1,2 @@
+Id_user,rating_count,ave_count,Sejarah&Budaya,Alam,Air,Kuliner,Religi,Pendidikan,Keluarga,Petualangan
+
