@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#09C36A</color>
+    <color name="colorActive">#0366d6</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorGrey">#f6f8fa</color>
+    <color name="colorGreyLight">#EBEBEB</color>
+    <color name="colorGreyMid">#9E9E9E</color>
+    <color name="colorGreySoft">#CACACA</color>
+    <color name="colorLineBold">#6f7881</color>
+    <color name="colorLineRegular">#e7eaed</color>
+    <color name="colorPrimary">#6C63FF</color>
+    <color name="colorPrimaryDark">#3C7CC3</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorWhiteUp">#F7F7F7</color>
+    <color name="navy">#2D3D4F</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Odyssey Van Java</string>
+    <string name="city_1">Yogyakarta</string>
+    <string name="email">Email</string>
+    <string name="firebase_database_url" translatable="false">https://capstone-ps419-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">941942085651</string>
+    <string name="google_api_key" translatable="false">AIzaSyDkWeMx_I2rYHfGFZHAuxkge9ZF4LjGZ0U</string>
+    <string name="google_app_id" translatable="false">1:941942085651:android:e064426841df309a00c7e6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDkWeMx_I2rYHfGFZHAuxkge9ZF4LjGZ0U</string>
+    <string name="google_storage_bucket" translatable="false">capstone-ps419.appspot.com</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Masuk</string>
+    <string name="logout">Keluar</string>
+    <string name="message_login_page">sign in to access your account</string>
+    <string name="message_register_page">creating a free account.</string>
+    <string name="name">Nama</string>
+    <string name="password">Password</string>
+    <string name="place_1">Tugu Jogja</string>
+    <string name="project_id" translatable="false">capstone-ps419</string>
+    <string name="rate_2">4.5</string>
+    <string name="signup">Daftar</string>
+    <string name="title_login_page">Welcome</string>
+    <string name="title_signup_page">Register</string>
+    <string name="title_welcome_page">Selamat datang di Dicoding!</string>
+    <style name="Base.Theme.OdysseyVanJava" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.OdysseyVanJava" parent="Base.Theme.OdysseyVanJava"/>
+</resources>
