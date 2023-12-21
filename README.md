@@ -1,5 +1,5 @@
 # Mobile Devlopment Path
-creating apps with the [Kotlin programming language][https://kotlinlang.org/]. To manage every aspect of an Android data connection to the internet, [Retrofit][https://square.github.io/retrofit/] is used. utilizing [firebase][https://firebase.google.com/?hl=id] to authenticate login and registration systems and store user data. Obtaining the user's present location via [Google Services][https://cloud.google.com/?hl=id]
+creating apps with the [Kotlin programming language][(https://kotlinlang.org/)]. To manage every aspect of an Android data connection to the internet, [Retrofit][https://square.github.io/retrofit/] is used. utilizing [firebase][https://firebase.google.com/?hl=id] to authenticate login and registration systems and store user data. Obtaining the user's present location via [Google Services][https://cloud.google.com/?hl=id]
 
 # App Development roadmap
 We use multiple processes in the application creation process, which we divide into two processes: Implementation to Design and Implementation to Applications.
