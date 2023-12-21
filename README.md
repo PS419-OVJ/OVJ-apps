@@ -94,6 +94,7 @@ In our project is divided into four branches.
 3. Cloud Computing
    - [Node.js](https://nodejs.org/)
    - [Google App Engine](https://cloud.google.com/appengine)
+   - [Google Cloud Run](https://cloud.google.com/run)
    - [Google Cloud SQL](https://cloud.google.com/sql)
 4. Design
    - [Figma](https://www.figma.com/file/pJ59hWcJSTAF1tQfbjI0jk/Design?node-id=0%3A1)
