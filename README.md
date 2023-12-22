@@ -11,7 +11,10 @@
 OVJ-Apps : Odyssey Van Java GitHub Repositories of Bangkit Academy 2023 H2 Capstone Project from 3 learning path. Machine Learning, Mobile development, Cloud Computing from team CH2-PS419.
 
 # About The Project
+The tourism sector is one of the important sectors that support the Indonesian economy. In 2022, the tourism sector contributed 4.3% to Indonesia's Gross Domestic Product (GDP). The Central Bureau of Statistics (BPS) reported that there were 734.86 million domestic tourist (Wisnus) visits in Indonesia in 2022. West Java became the second-ranked province as the main destination for Wisnus in 2022, which amounted to 123.53 million visits.
+Even so, the ease of knowing tourist attractions in the western part of Java is still arguably not enough because only through social media, websites and maps that provide incomplete and less integrated information. Not to mention that tourists are not only trying to visit new tourist attractions, but also to learn the culture and history of the places they explore.
 
+As sons of the region, we want to participate in developing tourism in the western part of Java by utilizing the knowledge and experience we learned in Bangkit Academy 2023 program, with an application in the form of tourism place recommendations called the OVJ “Odyssey Van Java” (West of Java) Application. The OVJ “Odyssey Van Java” (West of Java) application is a tourism recommendation application in the western Java region, this application provides tourism recommendations according to user preferences and provides information that has been integrated using machine learning models, so that tourists can easily find tourist destinations according to what they want.
 
 
 # Team Members
