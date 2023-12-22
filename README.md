@@ -6,7 +6,7 @@ The Odyssey Van Java app serves as a tourism recommendation platform specificall
 Content-based machine learning is employed to generate recommendations by analyzing the characteristics of items and user preferences. The process involves creating profiles for each item and user within the same feature space, followed by assessing similarity using metrics like dot product or cosine similarity. The system then suggests items that exhibit the highest similarity to the user's profile.
 
 ### Dataset
-We gathered a tourism destination dataset containing the names of tourist spots, categories, locations, operating hours, ticket prices, and descriptions for each destination. 
+We gathered a tourism destination dataset containing the names of tourist spots, categories, locations, operating hours, ticket prices, and descriptions for each destination [in here](https://github.com/PS419-OVJ/OVJ-apps/blob/machine-learning/Dataset/wisata1.csv). 
 We also distributed questionnaires to travelers to collect data on each individual's travel preferences.
 
 ### Model
