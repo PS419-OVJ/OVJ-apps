@@ -521,7 +521,7 @@ In this section there is a list of all destinations that can be filtered by cate
 <br>
 
 
-### Menampilkan Destinasi Wisata Berdasarkan Kategori
+### Show List Destination Search By Category
 
 - **Get all destinations with Nature Category**
   
@@ -606,7 +606,7 @@ In this section there is a list of all destinations that can be filtered by cate
 
 <br>
 
-### Menampilkan Destinasi Wisata Berdasarkan Kategori
+### Show List Destination Search By Selection Users
 - **Get all destinations by selecting one of the categories**
   
  **Path :**
