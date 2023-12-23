@@ -1,14 +1,14 @@
 # Cloud Computing Path
 
-Membuat **REST APIs** dan menerapkannya ke  [Google Cloud Platform](https://cloud.google.com) dengan menggunakan [Google App Engine](https://cloud.google.com/appengine) dan [Google Run](https://cloud.google.com/run) untuk saling komunikasi antara **Machine Learning** and **Mobile Development**. Dan Membuat database [Cloud SQL](https://cloud.google.com/sql) untuk menyimpan semua data. 
+Creating **RESTful APIs** and deploying to  [Google Cloud Platform](https://cloud.google.com) by using [Google App Engine](https://cloud.google.com/appengine) and [Google Run](https://cloud.google.com/run) for communication between **Machine Learning Recommendation System Model** and **Mobile Development**. And Creating database in [Cloud SQL](https://cloud.google.com/sql) to save all data.
 
 ## REST APIs
 
-Dalam membuat **REST API** kami menggunakan [Node.js](https://nodejs.org) dan Framework [Express.js](https://expressjs.com), untuk respons menggunakan format **JSON**. Untuk masing-masing URL yang dapat digunakan akan dijelaskan dibawah ini.
+In making the  **REST API** we use [Python](https://www.python.org), [Node.js](https://nodejs.org) with Framework [Express.js](https://expressjs.com), for responses using **JSON** format. For each URL that can be used will be explained below.
 
-## Daftar Destinasi Wisata
+## List Destination
 
-Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa bagian barat yang dapat difilter berdasarkan kota atau kategori. Respon dari setiap URL menggunakan format **JSON**.
+In this section there is a list of all destinations that can be filtered by category and city. Response from each URL using **JSON** format.
 
 **Base URL :**
 
@@ -18,29 +18,29 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
   > `GET`
 
-- **Mendapatkan Semua Data Wisata**
+- **Show List Destination**
 
  **Path :**
 
   > /wisata
 
-   **Contoh Perintah**
+   **Example request**
 
   > https://capstone-ps419.et.r.appspot.com/wisata
 
-### Menampilkan Destinasi Wisata Berdasarkan Kota
+### Show List Destination Search By City
 
-- **Mendapatkan Semua Data Wisata berlokasi di Sukabumi**
+- **Get all destinations located in the city of Sukabumi**
 
   **Path :**
 
   > /getsukabumi
   
-  **Contoh Perintah**
+  **Example request**
 
   > https://capstone-ps419.et.r.appspot.com/getsukabumi
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
 {
@@ -58,17 +58,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Tasikmalaya**
+- **Get all destinations located in the city of Tasikmalaya**
 
   **Path :**
 
   > /gettasikmalaya
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/gettasikmalaya
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
 {
@@ -85,17 +85,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Ciamis**
+- **Get all destinations located in the city of  Ciamis**
 
   **Path :**
 
   > /getciamis
 
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getciamis
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
  {
@@ -112,17 +112,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Pangandaran**
+- **Get all destinations located in the city of Pangandaran**
 
   **Path :**
 
   > /getpangandaran
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getpangandaran
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
   {
@@ -139,13 +139,13 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Banjar**
+- **Get all destinations located in the city of  Banjar**
 
   **Path :**
 
   > /getbanjar
   
-  **Contoh Perintah**
+  **Example Response**
 
   > https://capstone-ps419.et.r.appspot.com/getbanjar
 
@@ -166,17 +166,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Kuningan**
+- **Get all destinations located in the city of Kuningan**
 
   **Path :**
 
   > /getkuningan
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getkuningan
   
-  **Contoh Respon**
+  **Example Response**
 
 ```json
 {
@@ -193,17 +193,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Bogor**
+- **Get all destinations located in the city of Bogor**
 
   **Path :**
 
   > /getbogor
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getbogor
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
  {
@@ -220,17 +220,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Bandung**
+- **Get all destinations located in the city of Bandung**
 
   **Path :**
 
   > /getbandung
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getbandung
   
-  **Contoh Respon**
+  **Example Response**
 
 ```json
 {
@@ -247,17 +247,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Cirebon**
+- **Get all destinations located in the city of Cirebon**
 
   **Path :**
 
   > /getcirebon
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getcirebon
   
-  **Contoh Respon**
+  **Example Response**
 
 ```json
 {
@@ -274,17 +274,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Garut**
+- **Get all destinations located in the city of Garut**
 
   **Path :**
 
   > /getgarut
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getgarut
   
-  **Contoh Respon**
+  **Example Response**
 
 ```json
 {
@@ -301,18 +301,18 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Cilegon**
+- **Get all destinations located in the city of Cilegon**
 
   **Path :**
 
   > /getcilegon
 
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getcilegon
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
   {
@@ -329,17 +329,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Serang**
+- **Get all destinations located in the city of Serang**
 
   **Path :**
 
   > /getserang
 
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getserang
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
 {
@@ -356,17 +356,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Pandeglang**
+- **Get all destinations located in the city of Pandeglang**
 
   **Path :**
 
   > /getpandeglang
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getpandeglang
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
  {
@@ -383,17 +383,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Lebak**
+- **Get all destinations located in the city of Lebak**
 
   **Path :**
 
   > /getlebak
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getlebak
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
   {
@@ -412,17 +412,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 
 
-- **Mendapatkan Semua Data Wisata berlokasi di Jakarta**
+- **Get all destinations located in the city of Jakarta**
 
   **Path :**
 
   > /getjakarta
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getjakarta
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
 {
@@ -439,17 +439,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Depok**
+- **Get all destinations located in the city of Depok**
 
   **Path :**
 
   > /getdepok
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getdepok
 
-  **Contoh Respon**
+  **Example Response**
 
 ```json
  {
@@ -466,17 +466,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Bekasi**
+- **Get all destinations located in the city of Bekasi**
 
   **Path :**
 
   > /getbekasi
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getbekasi
   
-  **Contoh Respon**
+  **Example Response**
 
 ```json
  {
@@ -493,17 +493,17 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 ```
 <br>
 
-- **Mendapatkan Semua Data Wisata berlokasi di Tangerang**
+- **Get all destinations located in the city of Tangerang**
 
   **Path :**
 
   > /gettangerang
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/gettangerang
   
-  **Contoh Respon**
+  **Example Response**
 
 ```json
  {
@@ -523,124 +523,141 @@ Di bagian ini terdapat daftar semua Destinasi Wisata yang ada di wilayah Jawa ba
 
 ### Menampilkan Destinasi Wisata Berdasarkan Kategori
 
-- **Mendapatkan Semua Data Wisata Dengan Kategori Alam**
+- **Get all destinations with Nature Category**
   
  **Path :**
 
   > /getalam
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getalam
 
 <br>
 
-- **Mendapatkan Semua Data Wisata Dengan Kategori Keluarga**
+- **Get all destinations With Family Category**
   
  **Path :**
 
   > /getkeluarga
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getkeluarga
 
 <br>
 
-- **Mendapatkan Semua Data Wisata Dengan Kategori Air**
+- **Get all destinations With Water Category**
   
  **Path :**
 
   > /getair
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getair
 
 <br>
 
-- **Mendapatkan Semua Data Wisata Dengan Kategori Sejarah**
+- **Get all destination With History Category**
   
  **Path :**
 
   > /getsejarah
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getsejarah
 
 <br>
 
-- **Mendapatkan Semua Data Wisata Dengan Kategori Kuliner**
+- **Get all destinations with the Culinary Category**
   
  **Path :**
 
   > /getkuliner
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getkuliner
 
 <br>
 
-- **Mendapatkan Semua Data Wisata Dengan Kategori Petualangan**
+- **Get all destinations With Adventure Category**
   
  **Path :**
 
   > /getpetualangan
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getpetualangan
 <br>
 
-- **Mendapatkan Semua Data Wisata Dengan Kategori Pendidikan**
+- **Get all destinations With Education Category**
   
  **Path :**
 
   > /getpendidikan
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getpendidikan
 
 <br>
 
 ### Menampilkan Destinasi Wisata Berdasarkan Kategori
-- **Mendapatkan Semua Data Wisata Dengan Memilih Salah Satu Kategori**
+- **Get all destinations by selecting one of the categories**
   
  **Path :**
 
   > /getonekategori 
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getonekategori 
 
 <br>
 
-- **Mendapatkan Semua Data Wisata Dengan Memilih Lebih Dari Satu Kategori**
+- **Get all destinations by selecting more one category**
   
  **Path :**
 
   > /getmorekategori
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getmorekategori
 
 <br>
 
 
-- **Mendapatkan Semua Data Wisata Dengan Memilih Salah Satu Kota**
+- **Get all destinations by selecting one of the city**
   
  **Path :**
 
   > /getonekota
   
-  **Contoh Perintah**
+  **Example Request**
 
   > https://capstone-ps419.et.r.appspot.com/getonekota
 <br>
 
+## Destination Recommendation
+This **RESTful APIs** is used to connect data models that have been created by the **Machine Learning** team into data that can be consumed by **Mobile Development** to provide destination recommendations to users. Response from each URL using **JSON** format.
 
+**Base URL :**
+
+> https://hellops419-o3k3r6jfja-et.a.run.app/
+
+ **Path :**
+
+  > /predict
+
+ **Method :**
+
+  > `GET`
+
+ **Example Request**
+
+  > https://hellops419-o3k3r6jfja-et.a.run.app/predict 
