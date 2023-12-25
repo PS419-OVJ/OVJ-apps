@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_detail.xml -->
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/gambarDetailImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/namaDetailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gambarDetailImageView"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/ratingDetailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namaDetailTextView"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/deskripsiDetailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingDetailTextView"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/kotaDetailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deskripsiDetailTextView"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/jamDetailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kotaDetailTextView"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/tiketDetailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/jamDetailTextView"
+        android:layout_marginTop="8dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"/>
+
+    <!-- Tambahkan elemen-elemen lain seperti jam operasional, tiket, kategori, kota, deskripsi, dll. -->
+
+    <Button
+        android:id="@+id/bukaLokasiButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tiketDetailTextView"
+        android:layout_marginTop="16dp"
+        android:text="Buka Lokasi"
+        android:onClick="bukaLokasi"/>
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Odyssey Van Java</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="title_welcome_page">Selamat datang di Dicoding!</string>
+    <string name="title_signup_page">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">sign in to access your account</string>
+    <string name="title_login_page">Welcome</string>
+    <string name="name">Nama</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="place_1">Tugu Jogja</string>
+    <string name="city_1">Yogyakarta</string>
+    <string name="rate_2">4.5</string>
+    <string name="message_register_page">creating a free account.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

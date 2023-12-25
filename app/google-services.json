@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "941942085651",
+    "firebase_url": "https://capstone-ps419-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "capstone-ps419",
+    "storage_bucket": "capstone-ps419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941942085651:android:e064426841df309a00c7e6",
+        "android_client_info": {
+          "package_name": "com.example.odysseyvanjava"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkWeMx_I2rYHfGFZHAuxkge9ZF4LjGZ0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
